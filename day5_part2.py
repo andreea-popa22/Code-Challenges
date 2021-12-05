@@ -24,8 +24,6 @@ for line in lines:
             y += 1 * sign_y
 
 
-for line in diagram:
-    print(line)
 number = 0
 for line in diagram:
     number += len(list(filter(lambda x: x > 1, line)))
